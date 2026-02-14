@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Hospitality & Guest Experience Consultant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <!-- Navigation (Same as index) -->
+    <nav class="fixed w-full z-50 glass-nav transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="index.html" class="text-2xl font-serif font-bold text-gray-900 tracking-wide">
+                        <i class="fa-solid fa-gem text-yellow-600 mr-2"></i>EXPERIENCE<span
+                            class="text-yellow-600">CONSULT</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="index.html"
+                        class="text-gray-900 hover:text-yellow-600 font-medium transition duration-300">Home</a>
+                    <a href="about.html"
+                        class="text-yellow-600 font-bold transition duration-300 border-b-2 border-yellow-600">About
+                        Me</a>
+                    <a href="services.html"
+                        class="text-gray-900 hover:text-yellow-600 font-medium transition duration-300">Services</a>
+                    <a href="contact.html"
+                        class="bg-gray-900 text-white px-6 py-2 rounded-full hover:bg-yellow-600 transition duration-300 font-medium shadow-lg transform hover:-translate-y-0.5">Contact
+                        Now</a>
+                </div>
+                <!-- Mobile button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-button"
+                        class="mobile-menu-button p-2 rounded-md hover:bg-gray-100 focus:outline-none">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100">
+            <a href="index.html" class="block py-3 px-4 text-sm hover:bg-gray-50 text-gray-900 font-medium">Home</a>
+            <a href="about.html" class="block py-3 px-4 text-sm bg-gray-50 text-yellow-600 font-bold">About Me</a>
+            <a href="services.html"
+                class="block py-3 px-4 text-sm hover:bg-gray-50 text-gray-900 font-medium">Services</a>
+            <a href="contact.html" class="block py-3 px-4 text-sm hover:bg-gray-50 text-gray-900 font-medium">Contact
+                Now</a>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="pt-32 pb-20 bg-gray-900 text-center relative overflow-hidden">
+        <div
+            class="absolute inset-0 opacity-20 bg-[url('https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center">
+        </div>
+        <div class="relative z-10 max-w-4xl mx-auto px-4 fade-in">
+            <h1 class="text-4xl md:text-6xl font-serif font-bold text-white mb-4">My Philosophy & Story</h1>
+            <p class="text-xl text-gray-300 font-light">Combining passion for service with strategic insight.</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <section class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
+                <div class="prose prose-lg text-gray-600 fade-in">
+                    <h2 class="text-3xl font-serif font-bold text-gray-900 mb-6">A Decade of Excellence</h2>
+                    <p class="mb-6">
+                        Hospitality is more than just service; it's a feeling. It's the silent language of care that
+                        guests experience from the moment they step through the door.
+                    </p>
+                    <p class="mb-6">
+                        With over 15 years in the international hospitality sector, I have had the privilege working
+                        with some of the world's most renowned luxury brands. My journey started on the front lines,
+                        giving me an intimate understanding of the operational challenges your staff face daily.
+                    </p>
+                    <p>
+                        Today, I bridge the gap between executive strategy and ground-level execution. I believe that
+                        true luxury lies in anticipation—knowing what the guest wants before they even ask.
+                    </p>
+
+                    <div class="mt-10 p-6 bg-gray-50 border-l-4 border-yellow-500 rounded-r-lg italic text-gray-700">
+                        "The goal is not just to satisfy expectations, but to exceed them in ways that are personable,
+                        memorable, and sincere."
+                    </div>
+                </div>
+                <div class="relative fade-in space-y-8">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Consultant Speaking"
+                        class="w-full rounded-lg shadow-2xl transform hover:scale-[1.02] transition duration-500">
+
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-gray-900 text-white p-6 rounded-lg text-center">
+                            <h3 class="text-4xl font-bold text-yellow-500 mb-2">50+</h3>
+                            <p class="text-sm uppercase tracking-wide">Projects Completed</p>
+                        </div>
+                        <div class="bg-gray-900 text-white p-6 rounded-lg text-center">
+                            <h3 class="text-4xl font-bold text-yellow-500 mb-2">12</h3>
+                            <p class="text-sm uppercase tracking-wide">Countries Served</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-3xl md:text-4xl font-serif font-bold text-gray-900">Core Values</h2>
+                <div class="w-24 h-1 bg-yellow-500 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div
+                    class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-gray-900 hover:border-yellow-500 transition duration-300 fade-in">
+                    <div
+                        class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6 text-gray-900 text-2xl">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Empathy First</h3>
+                    <p class="text-gray-600">Understanding the emotional needs of both guests and staff is the
+                        foundation of great service.</p>
+                </div>
+                <div
+                    class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-gray-900 hover:border-yellow-500 transition duration-300 fade-in">
+                    <div
+                        class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6 text-gray-900 text-2xl">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Innovation</h3>
+                    <p class="text-gray-600">Adopting modern technologies and trends while respecting traditional
+                        hospitality virtues.</p>
+                </div>
+                <div
+                    class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-gray-900 hover:border-yellow-500 transition duration-300 fade-in">
+                    <div
+                        class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6 text-gray-900 text-2xl">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Integrity</h3>
+                    <p class="text-gray-600">Honest assessments and transparent strategies that build long-term trust
+                        and results.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as index) -->
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-gray-800 pb-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                <div class="col-span-1 md:col-span-2">
+                    <a href="index.html" class="text-2xl font-serif font-bold text-white tracking-wide mb-6 block">
+                        <i class="fa-solid fa-gem text-yellow-600 mr-2"></i>EXPERIENCE<span
+                            class="text-yellow-600">CONSULT</span>
+                    </a>
+                    <p class="text-gray-400 mb-6 max-w-sm leading-relaxed">
+                        Dedicated to refining the art of hospitality. We help businesses create exceptional guest
+                        experiences that drive loyalty and success.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-6 text-yellow-500">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition">About Me</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white transition">Services</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-6 text-yellow-500">Contact Info</h4>
+                    <ul class="space-y-3 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3 text-yellow-600"></i>
+                            <span>123 Luxury Lane, Colombo 03, Sri Lanka</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-3 text-yellow-600"></i>
+                            <span>+94 77 123 4567</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3 text-yellow-600"></i>
+                            <span>hello@experienceconsult.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div
+            class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
+            <p>&copy; 2024 ExperienceConsult. All rights reserved.</p>
+            <div class="flex space-x-6 mt-4 md:mt-0">
+                <a href="#" class="hover:text-white">Privacy Policy</a>
+                <a href="#" class="hover:text-white">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

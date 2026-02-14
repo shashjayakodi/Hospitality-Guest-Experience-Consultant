@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Hospitality & Guest Experience Consultant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <!-- Navigation (Same as index) -->
+    <nav class="fixed w-full z-50 glass-nav transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="index.html" class="text-2xl font-serif font-bold text-gray-900 tracking-wide">
+                        <i class="fa-solid fa-gem text-yellow-600 mr-2"></i>EXPERIENCE<span
+                            class="text-yellow-600">CONSULT</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="index.html"
+                        class="text-gray-900 hover:text-yellow-600 font-medium transition duration-300">Home</a>
+                    <a href="about.html"
+                        class="text-gray-900 hover:text-yellow-600 font-medium transition duration-300">About Me</a>
+                    <a href="services.html"
+                        class="text-gray-900 hover:text-yellow-600 font-medium transition duration-300">Services</a>
+                    <a href="contact.html"
+                        class="bg-yellow-600 text-white px-6 py-2 rounded-full hover:bg-yellow-700 transition duration-300 font-medium shadow-lg transform hover:-translate-y-0.5">Contact
+                        Now</a>
+                </div>
+                <!-- Mobile button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-button"
+                        class="mobile-menu-button p-2 rounded-md hover:bg-gray-100 focus:outline-none">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100">
+            <a href="index.html" class="block py-3 px-4 text-sm hover:bg-gray-50 text-gray-900 font-medium">Home</a>
+            <a href="about.html" class="block py-3 px-4 text-sm hover:bg-gray-50 text-gray-900 font-medium">About Me</a>
+            <a href="services.html"
+                class="block py-3 px-4 text-sm hover:bg-gray-50 text-gray-900 font-medium">Services</a>
+            <a href="contact.html" class="block py-3 px-4 text-sm bg-yellow-600 text-white font-bold">Contact Now</a>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="pt-32 pb-20 bg-gray-900 text-center relative overflow-hidden">
+        <div
+            class="absolute inset-0 opacity-20 bg-[url('https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center">
+        </div>
+        <div class="relative z-10 max-w-4xl mx-auto px-4 fade-in">
+            <h1 class="text-4xl md:text-6xl font-serif font-bold text-white mb-4">Let's Connect</h1>
+            <p class="text-xl text-gray-300 font-light">Start the conversation today.</p>
+        </div>
+    </header>
+
+    <!-- Contact Content -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+
+                <!-- Contact Info -->
+                <div class="fade-in">
+                    <h2 class="text-3xl font-serif font-bold text-gray-900 mb-6">Get In Touch</h2>
+                    <p class="text-gray-600 mb-10 leading-relaxed">
+                        Whether you have a specific project in mind or just want to explore how we can work together,
+                        I'd love to hear from you. My team is ready to assist you in elevating your hospitality
+                        standards.
+                    </p>
+
+                    <div class="space-y-8">
+                        <div class="flex items-start">
+                            <div
+                                class="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center text-yellow-600 text-xl mr-6 flex-shrink-0">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold text-gray-900 mb-2">Visit Our Office</h4>
+                                <p class="text-gray-600">123 Luxury Lane, Colombo 03,<br>Western Province, Sri Lanka</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div
+                                class="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center text-yellow-600 text-xl mr-6 flex-shrink-0">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold text-gray-900 mb-2">Call Us</h4>
+                                <p class="text-gray-600">+94 77 123 4567<br>+94 11 234 5678</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div
+                                class="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center text-yellow-600 text-xl mr-6 flex-shrink-0">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold text-gray-900 mb-2">Email Us</h4>
+                                <p class="text-gray-600">hello@experienceconsult.com<br>info@experienceconsult.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-12">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126743.5858599427!2d79.8037380945934!3d6.921838641460391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae253d10f7a7003%3A0x320b2e4d32d3838d!2sColombo!5e0!3m2!1sen!2slk!4v1628148817296!5m2!1sen!2slk"
+                            width="100%" height="300" style="border:0; border-radius: 0.75rem;" allowfullscreen=""
+                            loading="lazy"></iframe>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg border border-gray-100 fade-in">
+                    <h3 class="text-2xl font-serif font-bold text-gray-900 mb-6">Send a Message</h3>
+                    <form action="#" method="POST" class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="first-name" class="block text-sm font-medium text-gray-700 mb-2">First
+                                    Name</label>
+                                <input type="text" id="first-name"
+                                    class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 transition outline-none"
+                                    placeholder="John">
+                            </div>
+                            <div>
+                                <label for="last-name" class="block text-sm font-medium text-gray-700 mb-2">Last
+                                    Name</label>
+                                <input type="text" id="last-name"
+                                    class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 transition outline-none"
+                                    placeholder="Doe">
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email
+                                Address</label>
+                            <input type="email" id="email"
+                                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 transition outline-none"
+                                placeholder="john@example.com">
+                        </div>
+
+                        <div>
+                            <label for="company" class="block text-sm font-medium text-gray-700 mb-2">Company / Hotel
+                                Name</label>
+                            <input type="text" id="company"
+                                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 transition outline-none"
+                                placeholder="The Grand Hotel">
+                        </div>
+
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+                            <textarea id="message" rows="5"
+                                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 transition outline-none"
+                                placeholder="Tell us about your project..."></textarea>
+                        </div>
+
+                        <button type="submit"
+                            class="w-full bg-gray-900 text-white font-bold py-4 rounded-lg hover:bg-yellow-600 transition duration-300 transform hover:-translate-y-1 shadow-lg">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as index) -->
+    <footer class="bg-gray-900 text-white pt-16 pb-8 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-gray-800 pb-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                <div class="col-span-1 md:col-span-2">
+                    <a href="index.html" class="text-2xl font-serif font-bold text-white tracking-wide mb-6 block">
+                        <i class="fa-solid fa-gem text-yellow-600 mr-2"></i>EXPERIENCE<span
+                            class="text-yellow-600">CONSULT</span>
+                    </a>
+                    <p class="text-gray-400 mb-6 max-w-sm leading-relaxed">
+                        Dedicated to refining the art of hospitality. We help businesses create exceptional guest
+                        experiences that drive loyalty and success.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-6 text-yellow-500">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition">About Me</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white transition">Services</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-6 text-yellow-500">Contact Info</h4>
+                    <ul class="space-y-3 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3 text-yellow-600"></i>
+                            <span>123 Luxury Lane, Colombo 03, Sri Lanka</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-3 text-yellow-600"></i>
+                            <span>+94 77 123 4567</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3 text-yellow-600"></i>
+                            <span>hello@experienceconsult.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div
+            class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
+            <p>&copy; 2024 ExperienceConsult. All rights reserved.</p>
+            <div class="flex space-x-6 mt-4 md:mt-0">
+                <a href="#" class="hover:text-white">Privacy Policy</a>
+                <a href="#" class="hover:text-white">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

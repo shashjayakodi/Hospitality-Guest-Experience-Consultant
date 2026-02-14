@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospitality & Guest Experience Consultant | Elevating Standards</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass-nav transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="index.html" class="text-2xl font-serif font-bold text-gray-900 tracking-wide">
+                        <i class="fa-solid fa-gem text-yellow-600 mr-2"></i>EXPERIENCE<span class="text-yellow-600">CONSULT</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="index.html" class="text-gray-900 hover:text-yellow-600 font-medium transition duration-300">Home</a>
+                    <a href="about.html" class="text-gray-900 hover:text-yellow-600 font-medium transition duration-300">About Me</a>
+                    <a href="services.html" class="text-gray-900 hover:text-yellow-600 font-medium transition duration-300">Services</a>
+                    <a href="contact.html" class="bg-gray-900 text-white px-6 py-2 rounded-full hover:bg-yellow-600 transition duration-300 font-medium shadow-lg transform hover:-translate-y-0.5">Contact Now</a>
+                </div>
+                <!-- Mobile button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-button" class="mobile-menu-button p-2 rounded-md hover:bg-gray-100 focus:outline-none">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100">
+            <a href="index.html" class="block py-3 px-4 text-sm hover:bg-gray-50 text-gray-900 font-medium">Home</a>
+            <a href="about.html" class="block py-3 px-4 text-sm hover:bg-gray-50 text-gray-900 font-medium">About Me</a>
+            <a href="services.html" class="block py-3 px-4 text-sm hover:bg-gray-50 text-gray-900 font-medium">Services</a>
+            <a href="contact.html" class="block py-3 px-4 text-sm bg-gray-50 text-yellow-600 font-bold">Contact Now</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative h-screen flex items-center justify-center bg-gray-900 overflow-hidden">
+        <!-- Background Image -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" alt="Luxury Hotel Lobby" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent"></div>
+        </div>
+
+        <div class="relative z-10 text-center px-4 max-w-4xl mx-auto fade-in">
+            <h1 class="text-5xl md:text-7xl font-serif font-bold text-white mb-6 leading-tight drop-shadow-lg">
+                Redefining <span class="text-yellow-500">Luxury</span> Hospitality
+            </h1>
+            <p class="text-lg md:text-xl text-gray-300 mb-10 font-light max-w-2xl mx-auto">
+                Expert consultation to elevate your guest experience, optimize operations, and create unforgettable moments.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="services.html" class="bg-yellow-600 text-white px-8 py-4 rounded-full font-semibold shadow-xl hover:bg-yellow-500 transition duration-300 transform hover:-translate-y-1">
+                    Explore Services
+                </a>
+                <a href="contact.html" class="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-gray-900 transition duration-300">
+                    Get in Touch
+                </a>
+            </div>
+        </div>
+        
+        <!-- Scroll Down Indicator -->
+        <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <a href="#about" class="text-white text-2xl opacity-70 hover:opacity-100 transition">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 md:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+                <div class="relative fade-in">
+                    <div class="relative rounded-lg overflow-hidden shadow-2xl">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Consultant Portrait" class="w-full h-auto object-cover transform hover:scale-105 transition duration-700">
+                    </div>
+                    <!-- Experience Badge -->
+                    <div class="absolute -bottom-6 -right-6 bg-white p-6 rounded-lg shadow-xl border-t-4 border-yellow-500 hidden md:block">
+                        <p class="text-4xl font-serif font-bold text-gray-900">15+</p>
+                        <p class="text-sm text-gray-600 uppercase tracking-wider font-semibold">Years Experience</p>
+                    </div>
+                </div>
+                <div class="fade-in">
+                    <h3 class="text-yellow-600 font-semibold tracking-wider uppercase mb-2">About Me</h3>
+                    <h2 class="text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-6">Mastering the Art of Guest Satisfaction</h2>
+                    <p class="text-lg text-gray-600 mb-6 leading-relaxed">
+                        In an industry defined by details, mediocrity is not an option. I partner with hotels, resorts, and restaurants to transform standard service into exceptional experiences. My approach blends operational efficiency with emotional intelligence.
+                    </p>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-yellow-500 mr-3 text-xl"></i>
+                            <span class="font-medium">Curating Bespoke Guest Journeys</span>
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-yellow-500 mr-3 text-xl"></i>
+                            <span class="font-medium">Operational Excellence Audits</span>
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-yellow-500 mr-3 text-xl"></i>
+                            <span class="font-medium">Staff Training & Culture Building</span>
+                        </li>
+                    </ul>
+                    <a href="about.html" class="text-yellow-600 font-semibold hover:text-yellow-700 transition duration-300 border-b-2 border-yellow-600 pb-1 inline-flex items-center">
+                        Read My Full Story <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Highlight -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in">
+                <h3 class="text-yellow-600 font-semibold tracking-wider uppercase mb-2">My Expertise</h3>
+                <h2 class="text-3xl md:text-4xl font-serif font-bold text-gray-900">Comprehensive Consulting Solutions</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border border-gray-100 service-card group relative overflow-hidden fade-in">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-yellow-500 transform -translate-x-2 group-hover:translate-x-0 transition duration-300"></div>
+                    <div class="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mb-6 text-yellow-600 text-2xl group-hover:bg-yellow-600 group-hover:text-white transition duration-300">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                    <h3 class="text-2xl font-serif font-bold text-gray-900 mb-4">Quality Audits</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        Rigorous assessment of your current service standards, identifying gaps and opportunities for immediate improvement.
+                    </p>
+                    <a href="services.html" class="text-indigo-900 font-semibold group-hover:text-yellow-600 transition">Learn more</a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border border-gray-100 service-card group relative overflow-hidden fade-in">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-yellow-500 transform -translate-x-2 group-hover:translate-x-0 transition duration-300"></div>
+                    <div class="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mb-6 text-yellow-600 text-2xl group-hover:bg-yellow-600 group-hover:text-white transition duration-300">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <h3 class="text-2xl font-serif font-bold text-gray-900 mb-4">Staff Training</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        Empower your team with world-class hospitality training modules designed to boost confidence and competence.
+                    </p>
+                    <a href="services.html" class="text-indigo-900 font-semibold group-hover:text-yellow-600 transition">Learn more</a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border border-gray-100 service-card group relative overflow-hidden fade-in">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-yellow-500 transform -translate-x-2 group-hover:translate-x-0 transition duration-300"></div>
+                    <div class="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mb-6 text-yellow-600 text-2xl group-hover:bg-yellow-600 group-hover:text-white transition duration-300">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="text-2xl font-serif font-bold text-gray-900 mb-4">Strategic Growth</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        Data-driven strategies to enhance guest loyalty, improve online reputation, and drive revenue growth.
+                    </p>
+                    <a href="services.html" class="text-indigo-900 font-semibold group-hover:text-yellow-600 transition">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Parallax -->
+    <section class="py-24 relative bg-fixed bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');">
+        <div class="absolute inset-0 bg-gray-900/80"></div>
+        <div class="relative max-w-4xl mx-auto px-4 text-center fade-in">
+            <i class="fas fa-quote-left text-5xl text-yellow-500 mb-8 opacity-50"></i>
+            <h2 class="text-3xl md:text-5xl font-serif font-bold text-white mb-8 italic leading-tight">
+                "The transformation in our guest feedback scores was immediate. An absolute game-changer for our boutique hotel."
+            </h2>
+            <div class="flex items-center justify-center space-x-4">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client" class="w-16 h-16 rounded-full border-2 border-yellow-500">
+                <div class="text-left">
+                    <p class="text-white font-bold text-lg">James Anderson</p>
+                    <p class="text-gray-400 text-sm">General Manager, The Grand Hotel</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-4 text-center fade-in">
+            <h2 class="text-4xl font-serif font-bold text-gray-900 mb-6">Ready to Elevate Your Guest Experience?</h2>
+            <p class="text-xl text-gray-600 mb-10">Let's discuss how we can refine your operations and create lasting impressions.</p>
+            <a href="contact.html" class="bg-gray-900 text-white px-10 py-4 rounded-full font-bold text-lg shadow-xl hover:bg-yellow-600 transition duration-300 transform hover:-translate-y-1 inline-block">
+                Start Your Transformation
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-gray-800 pb-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                <div class="col-span-1 md:col-span-2">
+                    <a href="index.html" class="text-2xl font-serif font-bold text-white tracking-wide mb-6 block">
+                        <i class="fa-solid fa-gem text-yellow-600 mr-2"></i>EXPERIENCE<span class="text-yellow-600">CONSULT</span>
+                    </a>
+                    <p class="text-gray-400 mb-6 max-w-sm leading-relaxed">
+                        Dedicated to refining the art of hospitality. We help businesses create exceptional guest experiences that drive loyalty and success.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-yellow-600 transition duration-300">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-yellow-600 transition duration-300">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-yellow-600 transition duration-300">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-6 text-yellow-500">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition">About Me</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white transition">Services</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-6 text-yellow-500">Contact Info</h4>
+                    <ul class="space-y-3 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3 text-yellow-600"></i>
+                            <span>123 Luxury Lane, Colombo 03, Sri Lanka</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-3 text-yellow-600"></i>
+                            <span>+94 77 123 4567</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3 text-yellow-600"></i>
+                            <span>hello@experienceconsult.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
+            <p>&copy; 2024 ExperienceConsult. All rights reserved.</p>
+            <div class="flex space-x-6 mt-4 md:mt-0">
+                <a href="#" class="hover:text-white">Privacy Policy</a>
+                <a href="#" class="hover:text-white">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
